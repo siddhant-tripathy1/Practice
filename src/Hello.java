@@ -2,6 +2,7 @@ public class Hello {
     public static void main(String[] args){
        int[] element;
         element = new int[]{1,2,3,4,5,6};
+        System.out.println(LargestElement(element));
     }
     static int LargestElement(int[] arr) {
         //to find the largest element in the array
@@ -12,9 +13,10 @@ public class Hello {
                     flag =false;
                     break;
                 }
-                if(flag==true){
-                    return -i;
-                }
+
+            }
+            if(flag==true){
+                return i;
             }
         }
         return -1;

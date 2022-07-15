@@ -16,7 +16,8 @@ public class whoHasTHEMajority {
         } else {
             return y;
         }
-        if(counter==counter_1){ 
+        if(counter==counter_1){
+            minimunoftwo(x,y);
         }
     };
     public int minimunoftwo
